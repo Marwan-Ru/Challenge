@@ -13,6 +13,7 @@
 		59CF27D12BA9C66C00B1A7A3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 59CF27D02BA9C66C00B1A7A3 /* Base */; };
 		59CF27D32BA9C66D00B1A7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CF27D22BA9C66D00B1A7A3 /* Assets.xcassets */; };
 		59CF27D62BA9C66D00B1A7A3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 59CF27D52BA9C66D00B1A7A3 /* Base */; };
+		59CF27DE2BA9CE7500B1A7A3 /* PenduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CF27DD2BA9CE7500B1A7A3 /* PenduViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59CF27D22BA9C66D00B1A7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59CF27D52BA9C66D00B1A7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59CF27D72BA9C66D00B1A7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59CF27DD2BA9CE7500B1A7A3 /* PenduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenduViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				59CF27CB2BA9C66C00B1A7A3 /* SceneDelegate.swift */,
 				59CF27CD2BA9C66C00B1A7A3 /* ViewController.swift */,
 				59CF27CF2BA9C66C00B1A7A3 /* Main.storyboard */,
+				59CF27DD2BA9CE7500B1A7A3 /* PenduViewController.swift */,
 				59CF27D22BA9C66D00B1A7A3 /* Assets.xcassets */,
 				59CF27D42BA9C66D00B1A7A3 /* LaunchScreen.storyboard */,
 				59CF27D72BA9C66D00B1A7A3 /* Info.plist */,
@@ -141,6 +144,7 @@
 				59CF27CE2BA9C66C00B1A7A3 /* ViewController.swift in Sources */,
 				59CF27CA2BA9C66C00B1A7A3 /* AppDelegate.swift in Sources */,
 				59CF27CC2BA9C66C00B1A7A3 /* SceneDelegate.swift in Sources */,
+				59CF27DE2BA9CE7500B1A7A3 /* PenduViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
