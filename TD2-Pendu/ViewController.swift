@@ -13,6 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let pvc = segue.destination as! PenduViewController
+        let b = sender as! UIButton
+        pvc.niveau = b.tag
+    }
 
 
 }
