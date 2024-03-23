@@ -20,6 +20,7 @@ class PenduViewController: UIViewController {
     var first : Int = 0
     var last : Int = 0
     var lettresADeviner : Int = 0
+    var etape : Int = 0
     
     var secret : String = ""
     
@@ -30,8 +31,36 @@ class PenduViewController: UIViewController {
     @IBOutlet weak var message: UILabel!
     
     @IBAction func clic(_ sender: UIButton) {
+        let lettre : String  = sender.titleLabel!.text!
+        let previousLAD = lettresADeviner
+        var i = 0
+        for char in secret{
+            if char == Character(lettre) && i >= first && i <= last{
+                lettresADeviner -= 1
+                // On remplace le char à un certain index
+                let indexValue = mot.text!.index(mot.text!.startIndex, offsetBy: i)
+                mot.text!.replaceSubrange(indexValue...indexValue, with: lettre)
+            }
+            i += 1
+        }
+        if lettresADeviner == 0 {
+            //gagné
+        } else if lettresADeviner == previousLAD {
+            //potence
+            etape+=1
+            vignette.image = UIImage(named: "pendu\(etape)")
+            if(etape >= 11){
+                //perdu
+            }
+            print(etape)
+        }
     }
     var niveau : Int = 1
+    
+    func finPartie(_ chaine: String) {
+        
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +78,18 @@ class PenduViewController: UIViewController {
         }
         lettresADeviner = last - first + 1
         print("lettres à deviner \(lettresADeviner)")
+        print("Le mot a deviner est \(secret)")
+        
+        var i = 0
+        mot.text! = ""
+        for char in secret{
+            if i >= first && i <= last{
+                mot.text!.insert("-", at: mot.text!.endIndex)
+            }else{
+                mot.text!.insert(char, at: mot.text!.endIndex)
+            }
+            i += 1
+        }
     }
 
     /*
