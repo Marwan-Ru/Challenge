@@ -338,6 +338,32 @@
                         <outlet property="message" destination="Fi5-Da-uEg" id="KtJ-xk-kTm"/>
                         <outlet property="mot" destination="gm9-1F-5EN" id="Ga5-Wy-MbV"/>
                         <outlet property="vignette" destination="Mfq-la-Ix2" id="fRj-Sg-HVW"/>
+                        <outletCollection property="clavier" destination="E1b-5I-utG" collectionClass="NSMutableArray" id="btu-f2-al6"/>
+                        <outletCollection property="clavier" destination="IFy-tb-0SN" collectionClass="NSMutableArray" id="TsR-EO-8vL"/>
+                        <outletCollection property="clavier" destination="OLb-C1-0Uj" collectionClass="NSMutableArray" id="1tK-js-c5K"/>
+                        <outletCollection property="clavier" destination="GSJ-3O-BT7" collectionClass="NSMutableArray" id="XN3-AY-ci0"/>
+                        <outletCollection property="clavier" destination="AOw-Yb-VvG" collectionClass="NSMutableArray" id="Kne-aL-OJA"/>
+                        <outletCollection property="clavier" destination="Uh3-mB-2in" collectionClass="NSMutableArray" id="Zp2-QG-P0B"/>
+                        <outletCollection property="clavier" destination="jMg-eO-nzQ" collectionClass="NSMutableArray" id="NYp-SR-C3d"/>
+                        <outletCollection property="clavier" destination="V1C-Ze-iKX" collectionClass="NSMutableArray" id="TDA-wx-Pim"/>
+                        <outletCollection property="clavier" destination="kt6-KO-5Vo" collectionClass="NSMutableArray" id="AZL-qH-yXE"/>
+                        <outletCollection property="clavier" destination="ntu-8e-Ipm" collectionClass="NSMutableArray" id="1GK-Qi-ZO7"/>
+                        <outletCollection property="clavier" destination="TR4-kc-W4v" collectionClass="NSMutableArray" id="KCZ-te-yXc"/>
+                        <outletCollection property="clavier" destination="f8i-kc-tFy" collectionClass="NSMutableArray" id="PFw-q0-8xZ"/>
+                        <outletCollection property="clavier" destination="Dha-H0-TVS" collectionClass="NSMutableArray" id="FMm-I3-Psf"/>
+                        <outletCollection property="clavier" destination="4NO-Kc-Nq1" collectionClass="NSMutableArray" id="rfg-fN-CdA"/>
+                        <outletCollection property="clavier" destination="huF-zW-oFT" collectionClass="NSMutableArray" id="5G3-d1-Ri5"/>
+                        <outletCollection property="clavier" destination="MDr-ZI-vqx" collectionClass="NSMutableArray" id="rSK-7h-1AB"/>
+                        <outletCollection property="clavier" destination="7xI-Rc-YSX" collectionClass="NSMutableArray" id="OAk-NJ-Bw9"/>
+                        <outletCollection property="clavier" destination="1sh-TX-yfS" collectionClass="NSMutableArray" id="YAf-tt-OJT"/>
+                        <outletCollection property="clavier" destination="PFW-rL-d7X" collectionClass="NSMutableArray" id="GIX-tK-UHX"/>
+                        <outletCollection property="clavier" destination="fyV-rH-FyM" collectionClass="NSMutableArray" id="Tet-VM-Cbc"/>
+                        <outletCollection property="clavier" destination="ObK-3R-cPe" collectionClass="NSMutableArray" id="GAz-zz-G3L"/>
+                        <outletCollection property="clavier" destination="oJQ-gh-SHP" collectionClass="NSMutableArray" id="9Q6-Rx-t9J"/>
+                        <outletCollection property="clavier" destination="RNF-qX-LFH" collectionClass="NSMutableArray" id="UNW-47-Fvf"/>
+                        <outletCollection property="clavier" destination="zdW-DQ-4Uo" collectionClass="NSMutableArray" id="ci6-YG-jLo"/>
+                        <outletCollection property="clavier" destination="X7O-LI-NAi" collectionClass="NSMutableArray" id="EYY-yp-yX4"/>
+                        <outletCollection property="clavier" destination="ZUo-iQ-qM8" collectionClass="NSMutableArray" id="xlQ-4J-35V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Zk-dm-tYw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

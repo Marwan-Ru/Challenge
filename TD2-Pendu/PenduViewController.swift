@@ -21,6 +21,7 @@ class PenduViewController: UIViewController {
     var last : Int = 0
     var lettresADeviner : Int = 0
     var etape : Int = 0
+    var niveau : Int = 1
     
     var secret : String = ""
     
@@ -44,21 +45,26 @@ class PenduViewController: UIViewController {
             i += 1
         }
         if lettresADeviner == 0 {
-            //gagné
+            finPartie("Gagné !")
         } else if lettresADeviner == previousLAD {
             //potence
             etape+=1
             vignette.image = UIImage(named: "pendu\(etape)")
             if(etape >= 11){
                 //perdu
+                finPartie("Perdu :(")
             }
             print(etape)
         }
     }
-    var niveau : Int = 1
+    
+    @IBOutlet var clavier: [UIButton]!
     
     func finPartie(_ chaine: String) {
-        
+        message.text = chaine
+        for touche in clavier {
+            touche.isEnabled = false
+        }
     }
 
 
